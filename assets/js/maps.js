@@ -18,6 +18,6 @@ function initMap() {
             label: labels[i % labels.length]
         });
     });
-    var markerClusterer = MarkerClusterer(map, markers,
+    var markerClusterer = markerClusterer(map, markers,
         { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 }
